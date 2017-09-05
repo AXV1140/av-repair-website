@@ -28,14 +28,14 @@ app.post('/contact/send', function(req, res){
 	var transporter = nodemailer.createTransport({
 		service: 'Gmail',
 		auth: {
-			user: 'mail.vatsa.anurag@gmail.com',
+			user: 'support.anurag@gmail.com',
 			pass: 'Enter password'
 		}
 	});
 
 	var mailOptions = {
-		from: 'Anurag vatsa <mail.vatsa.anurag@gmail.com>',
-		to: 'vatsa.anurag@gmail.com',
+		from: 'Anurag vatsa <support.anurag@gmail.com>',
+		to: 'support.vatsa@gmail.com',
 		subject: 'Node sample application',
 		text: 'You have a submission with the following details... Name: '+req.body.name+'Email: '+req.body.email+ 'Message: '+req.body.message,
 		html: '<p>You have a submission with the following details...</p><ul><li>Name: '+req.body.name+'</li><li>Email: '+req.body.email+'</li><li>Message: '+req.body.message+'</li></ul>'
