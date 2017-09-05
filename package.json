@@ -1,0 +1,25 @@
+{
+  "name": "av-repair-website",
+  "version": "0.0.1",
+  "description": "The computer repair website developed in node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AXV1140/av-repair-website.git"
+  },
+  "author": "Anurag vatsa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AXV1140/av-repair-website/issues"
+  },
+  "homepage": "https://github.com/AXV1140/av-repair-website#readme",
+  "dependencies": {
+    "express": "^4.15.4",
+    "body-parser": "*",
+    "jade":"*",
+    "node-mailer":"*"
+  }
+}
